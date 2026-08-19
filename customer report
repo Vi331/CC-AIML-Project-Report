@@ -1,0 +1,61 @@
+Customer Data Visualization using PCA
+Problem Statement
+           Modern businesses collect customer information from multiple sources. Customer datasets may contain several numerical features, making direct visualization and analysis difficult. Therefore, a dimensionality reduction technique is required to simplify the data while retaining important information. This project uses Principal Component Analysis to reduce customer data into principal components and visualize customer patterns. K-Means clustering can further be used to identify customer segments.
+Objective
+        To analyze and visualize customer data using Principal Component Analysis (PCA) by reducing multiple customer attributes into a smaller number of principal components while preserving maximum variance.
+Requirements
+1.	Software requirements
+•	python
+2.	Python Libraries
+•	pandas
+•	numpy
+•	matplotlib
+•	seaborn
+•	scikit-learn
+ Project Workflow
+      Customer Dataset → Data Collection → Data Cleaning → Exploratory Data Analysis → Select Numerical Features → Handle Missing Values → Standardization → Apply PCA → Calculate Explained Variance → Select Principal Components → 2D Visualization → Interpret Customer Patterns → Conclusion
+
+
+PCA Methodology
+ What is PCA?
+          Principal Component Analysis is a dimensionality reduction technique used to transform a dataset containing multiple correlated variables into a smaller set of uncorrelated principal components.
+ Why PCA?
+ Many features
+     ↓
+Difficult to visualize
+     ↓
+  PCA
+     ↓
+Fewer dimensions
+     ↓
+Easy visualization
+Principal Components
+Explain:
+•	PC1
+•	PC2
+•	PC3
+PC1
+Captures the highest variance.
+PC2
+Captures the second-highest variance.
+
+Dataset Description
+•	Dataset name
+•	Number of rows
+•	Number of columns
+•	Features
+•	Data types
+•	Missing values
+•	Duplicate values
+
+Data Preprocessing
+1.Missing value handling
+2. Duplicate removal
+3. Feature selection
+Select relevant numerical variables.
+4. Standardization
+Standardization ensures that variables with different scales contribute fairly to PCA.
+
+
+Conclusion
+      The overall aim of this project is to simplify and visualize complex customer data using Principal Component Analysis (PCA), while preserving the maximum amount of important information. The project helps identify customer patterns and relationships through a simple 2D visualization.
